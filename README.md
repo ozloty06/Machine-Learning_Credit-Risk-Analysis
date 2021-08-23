@@ -50,23 +50,25 @@ Resources: Python 3.8.5 with Imbalanced-Learn, Scikit-Learn, and Pandas librarie
 ##### Balanced Random Forest Classifier Model
 ![Balanced_Random_Forest_Classifier](https://github.com/ozloty06/Machine-Learning_Credit-Risk-Analysis/blob/main/Images/Balanced_Random_Forest_Classifier.png)
 
-- The balanced accuracy score is 54.47%
-- The high risk precision is only 1% while sensitivity is 72% with a very low F1 of 2%.
-- The low risk precision is almost 100% while sensitivity is 57% with an F1 of 73%.
-- This model did not perform as well as the SMOTE Oversampling Model.
+- The balanced accuracy score is 78.85%
+- The high risk precision is only 3% while sensitivity is 70% with a very low F1 of 6%.
+- The low risk precision is almost 100% while sensitivity is 87% with an F1 of 93%.
+- This model performed better than all of the prior models based on the higher balanced accuracy and F-scores.
 
 
 ##### Easy Ensemble AdaBoost Classifier Model
 ![Easy_Ensemble_AdaBoost_Classifier](https://github.com/ozloty06/Machine-Learning_Credit-Risk-Analysis/blob/main/Images/Easy_Ensemble_AdaBoost_Classifier.png)
 
-- The balanced accuracy score is 54.47%
-- The high risk precision is only 1% while sensitivity is 72% with a very low F1 of 2%.
-- The low risk precision is almost 100% while sensitivity is 57% with an F1 of 73%.
-- This model did not perform as well as the SMOTE Oversampling Model.
+- The balanced accuracy score is 93.16%
+- The high risk precision is only 9% while sensitivity is 92% with a very low F1 of 16%.
+- The low risk precision is almost 100% while sensitivity is 94% with an F1 of 97%.
+- This model performed the best of all of the prior models based on the higher balanced accuracy and F-scores.
 
 
 ### Summary
-Based on our analysis of loan credit risk data, the best machine learning model to use for assessing loan default risk is the SMOTE Oversampling Model due to the highest F-score. That said, all of the models that were reviewed as part of this assessment showed a low precision. This may be a result of the models being overfit as our data was not reduced down to only the most essential columns nor was the data reviewed to ensure column data contained non duplicative information. It's possible that some of the data may be a reinterpretation of other data contained in the data set rather than representing distinct credit worthiness information.
+Based on our analysis of loan credit risk data, the best machine learning model to use for assessing loan default risk is the Easy Ensemble AdaBoost Model due to the highest F-scores of 16% for high risk and 97% for low risk. 
+
+That said, all of the models that were reviewed as part of this assessment showed a low precision. This may be a result of the models being overfit as our data was not reduced down to only the most essential columns nor was the data reviewed to ensure column data contained non duplicative information. It's possible that some of the data may be a reinterpretation of other data contained in the data set rather than representing distinct credit worthiness information.
 
 The low precision means a lot of risk will be inaccurately considered high risk, leaving Fast Lending to possibly deny these applications and leave a great deal of loan opportunity behind. 
 
