@@ -11,7 +11,7 @@ Resources: Python 3.8.5 with Imbalanced-Learn, Scikit-Learn, and Pandas librarie
 
 
 ##### Naive Random Model
-![Naive_Random_Oversampling]()
+![Naive_Random_Oversampling](https://github.com/ozloty06/Machine-Learning_Credit-Risk-Analysis/blob/main/Images/Naive_Random_Oversampling.png)
 
 - The balanced accuracy score is 65.47%
 - The high risk precision is only 1% while sensitivity is 72% with a very low F1 of 2%.
@@ -21,7 +21,7 @@ Resources: Python 3.8.5 with Imbalanced-Learn, Scikit-Learn, and Pandas librarie
 
 
 ##### SMOTE Oversampling Model
-![SMOTE_Oversampling]()
+![SMOTE_Oversampling](https://github.com/ozloty06/Machine-Learning_Credit-Risk-Analysis/blob/main/Images/SMOTE_Oversampling.png)
 
 - The balanced accuracy score is 66.20%
 - The high risk precision is only 1% while sensitivity is 63% with a very low F1 of 2%.
@@ -30,7 +30,7 @@ Resources: Python 3.8.5 with Imbalanced-Learn, Scikit-Learn, and Pandas librarie
 
 
 ##### Undersampling Model
-![Undersampling]()
+![Undersampling](https://github.com/ozloty06/Machine-Learning_Credit-Risk-Analysis/blob/main/Images/Undersampling.png)
 
 - The balanced accuracy score is 66.20%
 - The high risk precision is only 1% while sensitivity is 69% with a very low F1 of only 1%.
@@ -39,7 +39,7 @@ Resources: Python 3.8.5 with Imbalanced-Learn, Scikit-Learn, and Pandas librarie
 
 
 ##### Combination Sampling Model
-![Combination_Sampling]()
+![Combination_Sampling](https://github.com/ozloty06/Machine-Learning_Credit-Risk-Analysis/blob/main/Images/Combination_Sampling.png)
 
 - The balanced accuracy score is 54.47%
 - The high risk precision is only 1% while sensitivity is 72% with a very low F1 of 2%.
@@ -48,7 +48,7 @@ Resources: Python 3.8.5 with Imbalanced-Learn, Scikit-Learn, and Pandas librarie
 
 
 ##### Balanced Random Forest Classifier Model
-![Balanced_Random_Forest_Classifier]()
+![Balanced_Random_Forest_Classifier](https://github.com/ozloty06/Machine-Learning_Credit-Risk-Analysis/blob/main/Images/Balanced_Random_Forest_Classifier.png)
 
 - The balanced accuracy score is 54.47%
 - The high risk precision is only 1% while sensitivity is 72% with a very low F1 of 2%.
@@ -57,7 +57,7 @@ Resources: Python 3.8.5 with Imbalanced-Learn, Scikit-Learn, and Pandas librarie
 
 
 ##### Easy Ensemble AdaBoost Classifier Model
-![Easy_Ensemble_AdaBoost_Classifier]()
+![Easy_Ensemble_AdaBoost_Classifier](https://github.com/ozloty06/Machine-Learning_Credit-Risk-Analysis/blob/main/Images/Easy_Ensemble_AdaBoost_Classifier.png)
 
 - The balanced accuracy score is 54.47%
 - The high risk precision is only 1% while sensitivity is 72% with a very low F1 of 2%.
